@@ -68,7 +68,7 @@ export default class SkypeIndicator extends PureComponent {
     };
 
     return (
-      <Animated.View style={[styles.layer, layerStyle]} {...{ key: index }}>
+      <Animated.View style={[styles.layer, layerStyle]} key={index}>
         <Animated.View style={ballStyle} />
       </Animated.View>
     );

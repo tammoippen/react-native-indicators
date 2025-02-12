@@ -51,7 +51,7 @@ export default class PulseIndicator extends PureComponent {
     };
 
     return (
-      <Animated.View style={styles.layer} {...{ key: index }}>
+      <Animated.View style={styles.layer} key={index}>
         <Animated.View style={pulseStyle} />
       </Animated.View>
     );

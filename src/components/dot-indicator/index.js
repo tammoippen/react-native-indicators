@@ -57,7 +57,7 @@ export default class DotIndicator extends PureComponent {
     };
 
     return (
-      <Animated.View style={style} {...{ key: index }} />
+      <Animated.View style={style} key={index} />
     );
   }
 
